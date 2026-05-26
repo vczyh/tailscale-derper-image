@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local test artifacts
+certs/
+*.pem
+*.key
+*.crt
+derper-key.private
+
+# Local env overrides
+.env
+.env.local
+
+# Claude Code workspace
+.claude/
